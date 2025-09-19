@@ -1,0 +1,105 @@
+/* Small devices (phones, portrait) */
+@media (max-width: 576px) {
+    // BANNER
+    ._banner-image {
+        transform: translateY(25%);
+    }
+    // FLASH PRODUCT
+    #flash-product {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+
+    // PRODUCT CATEGORY
+    #product-category {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Medium devices (phones landscape & tablets portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+    // BANNER
+    #banner {
+        ._apple {
+            font-size: 3.2rem;
+        }
+
+        h1 {
+            max-width: 100%;
+            font-size: 3.2rem;
+        }
+    }
+
+    // FLASH PRODUCT
+    #flash-product {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+
+    // PRODUCT CATEGORY
+    #product-category {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Large devices (tablets landscape & small laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    // BANNER
+    #banner {
+        ._apple {
+            font-size: 3.5rem;
+        }
+
+        h1 {
+            max-width: 100%;
+            font-size: 3.5rem;
+        }
+    }
+
+    // FLASH PRODUCT
+    #flash-product {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+
+    // PRODUCT CATEGORY
+    #product-category {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Extra large devices (laptops & desktops) */
+@media (min-width: 1025px) {
+    // BANNER
+    #banner {
+        ._apple {
+            font-size: 4rem;
+        }
+
+        h1 {
+            max-width: 100%;
+            font-size: 4rem;
+        }
+    }
+
+    // PRODUCT CATEGORY
+    #product-category {
+        ._card {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* XXL devices (large desktops, wide screens) */
+@media (min-width: 1201px) {
+    /* CSS rules for large desktops */
+}

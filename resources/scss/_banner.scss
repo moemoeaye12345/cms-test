@@ -1,0 +1,33 @@
+// ._banner {
+//     height: 400px;
+//     color: white;
+//     background-color: black;
+
+//     .container {
+//         .text {
+//             height: 400px;
+//             justify-content: center;
+//             align-items: center;
+
+//             #apple {
+//                 font-size: 50px;
+//             }
+//         }
+
+//         .image {
+//             height: 400px;
+//         }
+//     }
+// }
+
+#banner {
+    ._apple {
+        font-size: 3rem;
+    }
+
+    h1 {
+        max-width: 100%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
