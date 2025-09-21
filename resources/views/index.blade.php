@@ -11,7 +11,7 @@
     {{-- NAVIGATION --}}
     @include('layout.nav.drop-nav')
     {{-- SIDEBAR --}}
-    @include('layout.sidebar.sibebar')
+    @include('layout.sidebar.sidebar-hover')
     {{-- BANNER --}}
     @include('layout.banner')
     {{-- FLASH SECTION --}}

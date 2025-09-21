@@ -1,12 +1,9 @@
-._sidebar-hover {
-    background-color: gray;
-    width: 100px;
-    height: 100%;
-}
+#sidebar {
+    // width: 50px;
+    // height: 70px;
+    position: absolute;
 
-._sidebar-hover:hover {
-    background-color: rebeccapurple;
-    width: 300px;
-    height: 100%;
-    transition: 0.4s ease-in-out;
+    .avbar-toggler {
+        left: 0;
+    }
 }
