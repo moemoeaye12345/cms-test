@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+      {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
 
       <div>
         <button class="d-lg-none btn">search</button>

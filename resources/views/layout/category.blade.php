@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-3 _card">
-                <div class="card bg-danger">
+                <div class="card">
                         <img src="{{ asset('assets/images/camera.png') }}" class="card-img-top _card-image" alt="...">
                         <p class="card-text">Camera</p>
                 </div>

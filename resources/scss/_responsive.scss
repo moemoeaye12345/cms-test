@@ -22,6 +22,14 @@
     #sidebar {
         position: absolute;
         margin-top: 50px;
+
+        #togglerButton {
+            display: block;
+        }
+
+        #offcanvasDarkNavbarLabel {
+            display: none;
+        }
     }
 }
 
@@ -57,6 +65,14 @@
     #sidebar {
         position: absolute;
         margin-top: 50px;
+
+        #togglerButton {
+            display: block;
+        }
+
+        #offcanvasDarkNavbarLabel {
+            display: none;
+        }
     }
 }
 
@@ -92,6 +108,14 @@
     #sidebar {
         position: absolute;
         margin-top: 50px;
+
+        #togglerButton {
+            display: block;
+        }
+
+        #offcanvasDarkNavbarLabel {
+            display: none;
+        }
     }
 }
 
@@ -113,6 +137,17 @@
     #product-category {
         ._card {
             margin-top: 20px;
+        }
+    }
+
+    // SIDEBAR
+    #sidebar {
+        #togglerButton {
+            display: none;
+        }
+
+        #offcanvasDarkNavbarLabel {
+            display: block;
         }
     }
 }

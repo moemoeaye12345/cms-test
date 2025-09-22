@@ -25,4 +25,10 @@
             }
         }
     }
+
+    #product-category {
+        .card:hover {
+            background-color: red;
+        }
+    }
 }

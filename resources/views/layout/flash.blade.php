@@ -36,8 +36,8 @@
             </div>
             <div class="col-12 col-md-4 position-relative">
                 <div class="position-absolute end-0">
-                    <button class="rounded-circle border-0 fs-5"><i class="fa-solid fa-arrow-left"></i></button>
-                    <button class="rounded-circle border-0 fs-5"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    <button class="btn border rounded-pill p-3"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="btn border rounded-pill p-3"><i class="fa-solid fa-arrow-right-long"></i></button>
                 </div>
             </div>
         </div>

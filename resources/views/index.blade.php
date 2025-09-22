@@ -19,7 +19,7 @@
     @include('layout.flash-product')
     {{-- Browse by Category --}}
     @include("layout.category")
-    {{-- @include("layout.best-sell") --}}
+    @include("layout.best-sell")
 </body>
 @stack('scripts')
 </html>

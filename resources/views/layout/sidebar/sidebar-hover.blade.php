@@ -1,12 +1,12 @@
 <nav class="navbar navbar-dark top-0 start-0" id="sidebar">
     <div class="container-fluid">
       <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        {{-- <h5 class="offcanvas-title text-dark" id="offcanvasDarkNavbarLabel">Exclusive</h5> --}}
+        <span class="navbar-toggler-icon" id="togglerButton"></span>
+        <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Exclusive</h3>
       </button>
       <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Exclusive</h5>
+                <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Exclusive</h3>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
