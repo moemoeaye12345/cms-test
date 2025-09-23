@@ -20,6 +20,8 @@
     {{-- Browse by Category --}}
     @include("layout.category")
     @include("layout.best-sell")
+    {{-- @include("layout.slider.product-slider") --}}
+    @include("layout.slider.slider")
 </body>
 @stack('scripts')
 </html>

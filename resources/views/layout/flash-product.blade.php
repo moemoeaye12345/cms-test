@@ -1,4 +1,4 @@
-<section class="container-fluid" id="flash-product">
+<section class="" id="flash-product">
     <div class="container">
         <div class="row pt-3">
             <div class="col-12 col-md-6 col-lg-3 _card">
@@ -121,3 +121,4 @@
         </div>
     </div>
 </section>
+

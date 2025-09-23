@@ -64,6 +64,7 @@
                         <p class="card-text">$200</p>
                         <span style="color: orange; font-size:20px;">&#9733; &#9733; &#9733; &#9733; &#9733; (88)</span>
                     </div>
+                    
                     <div class="position-absolute top-0 end-0 _heart">
                         <div class="rounded-circle">
                             <i class="fa-solid fa-heart"></i>

@@ -1,5 +1,5 @@
 
-<section class="container-fluid py-4" id="flash-section">
+<section class="py-4" id="flash-section">
     <div class="container">
         <div class="row position-relative" id="flash_title">
             <div class="col-12 d-flex gap-4">
@@ -36,11 +36,19 @@
             </div>
             <div class="col-12 col-md-4 position-relative">
                 <div class="position-absolute end-0">
-                    <button class="btn border rounded-pill p-3"><i class="fa-solid fa-arrow-left"></i></button>
-                    <button class="btn border rounded-pill p-3"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    <button class="btn border rounded-pill p-3" onclick="scrollSlider(304,0)"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="btn border rounded-pill p-3" onclick="scrollSlider(-304,0)"><i class="fa-solid fa-arrow-right-long"></i></button>
                 </div>
             </div>
         </div>
     </div>    
 </section>
+@push('scripts')
+    <script type="module">
+        const slider = document.getElementById('flash-product');
+        function scrollSlider(x,y){
+            slider.scrollBy(x,y);
+        }
+    </script>
     
+@endpush      
